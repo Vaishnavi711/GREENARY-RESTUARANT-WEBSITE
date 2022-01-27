@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.main{
+    width:100%;
+}
+nav{
+    width:100%;
+    background-color:indigo;
+    height: 60px;
+    line-height:80px;
+    display:flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 30px;
+    color:yellow;
+    font-weight: bold;
+}
+ a{
+     text-decoration:none;
+     color:lawngreen;
+     font-size:17px;
+     transition:0.3s all ease;
+ }
+ ul{
+     margin: 0px;
+     margin: right 100px; ;
+ }
+ ul li{
+     float:left;
+     padding:0px 10px;
+     list-style:none;
+}
+ul li a :hover{
+    color:green;
+}
+.header{
+    background-image: url("images\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+h1{
+  
+    text-decoration: brown;
+    text-shadow: chartreuse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ 
